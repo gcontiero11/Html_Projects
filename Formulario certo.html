@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br"><!--Gustavo Gomes Contiero RA:3037754
+                       Eduardo Aguliari da Silva RA:3034976-->
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form action="Formulario.html" method="get" autocomplete="on">
+      <p><b>Digite seu nome:</b></p>
+      <input
+        name="Digite seu nome"
+        type="text"
+        placeholder="Preencha seu nome completo"
+        minlength="4"
+        required
+      >
+      <p><b>Digite sua data de nascimento:</b></p>
+      <input
+        name="data de nascimento"
+        type="date"
+        min="2022-08-01"
+        max="2022-08-31"
+        required
+      >
+      <p><b>Digite sua senha:</b></p>
+      <input
+        type="text"
+        name="senhaUsuario"
+        minlength="4"
+        required
+      ><br><br>
+      <label for="estado_civil">Estado Civil:</label>
+      <select id="estado_civil" name="estado_civil">
+        <option value="1">---</option>
+        <option value="2" selected>Solteiro</option>
+        <option value="3">Casado</option>
+        <option value="4">Divorciado</option>
+        <option value="5">Viúvo</option>
+      </select>
+      <p><b>Foto de Perfil</b></p>
+      <label for="imagem">Selecione uma imagem:</label>
+      <input type="file" id="imagem" name="imagem" accept="image/jpeg" >
+      <input type="submit" value="Enviar"><br><br>
+      <p><b>Horario</b></p>
+      <br>
+      <input type="time" min="08:00" max="18:00" required><br><br>
+      <p><b>Maioridade</b></p>
+      <input type="radio" checked name="Maioridade">Sou maior de idade
+      <input type="radio" name="Maioridade">Não sou maior de idade<br><br>
+      <button type="submit">Cadastrar</button>
+      <button type="reset">Limpar</button>
+    </form>
+  </body>
+</html>
