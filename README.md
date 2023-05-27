@@ -1,2 +1,3 @@
 # Html_Projects
-Html5 Projects from Web Introdition Class in IFSP - São Carlos
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- Html5/CSS3 Projects from Web Introdition Class in IFSP - São Carlos
